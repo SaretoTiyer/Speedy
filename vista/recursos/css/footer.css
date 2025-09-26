@@ -1,0 +1,29 @@
+.footer-container {
+    background-image: linear-gradient(135deg, rgba(63,94,251,1) 0%, rgba(57,145,204,1) 89.9%);
+    color: white;
+}
+
+.footer-container .footer-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-container .footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-container ul {
+    padding-left: 0;
+}
+
+.footer-container .list-inline {
+    margin-bottom: 0;
+}
+
+.footer-container .list-inline-item:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+.footer-container .fab {
+    font-size: 1.5rem;
+}
